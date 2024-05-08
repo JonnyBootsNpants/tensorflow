@@ -48,7 +48,7 @@ install(
   LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
   ARCHIVE DESTINATION ${CMAKE_INSTALL_LIBDIR}
   PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR}
-)
+) 
 
 # Requires implementation of fft2d_alloc.
 add_library(fft2d_fftsg2d "${FFT2D_SOURCE_DIR}/fftsg2d.c")
